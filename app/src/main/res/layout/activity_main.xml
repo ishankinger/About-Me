@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+    <data>
+        <variable
+            name = "myNameIshan"
+            type = "com.example.aboutme.MyName" />
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/layout_margin"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:id="@+id/name_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="@={myNameIshan.name}"
+        android:textColor = "@color/white"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="30"
+        android:fontFamily="@font/alike"
+        android:hint="@string/what_s_your_nick_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/alegreya_sc_bold"
+        android:text="@string/done"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@={myNameIshan.nickname}"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/avtar_image"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginTop="7dp"
+        android:contentDescription="@string/avtar_image"
+        tools:src="@drawable/pic_ishan" />
+
+    <ScrollView
+        android:id="@+id/bio_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="16dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="16dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold_italic"
+            android:lineSpacingMultiplier="1.4"
+            android:textSize="20sp"
+            tools:text="@string/intro" />
+    </ScrollView>
+</LinearLayout>
+</layout>

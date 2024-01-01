@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Ishan Kinger</string>
+    <string name="avtar_image">avatar</string>
+    <string name="intro">I am a second-year student of Bachelor of Technology in Computer Science Engineering at the Indian Institute of Technology, Bhubaneswar. Till now I am maintained an average CGPA of 9.40. I have been doing programming since my first year in C++ and I am a 6-star coder at the CodeChef platform. I have done all the fundamental topics of programming languages such as Object Oriented Programming, algorithm design, data structures, and complexity analysis. I regularly participated in coding contests and have built a very good problem-solving mindset. Also, I was also enrolled in some courses for programming where I have done a couple of projects. I am also doing App Development and have a decent hand in that. I have also completed one project on this where I have made an app which stores all the past year papers of our college academics which helps a lot of students in our college. Other than my knowledge of programming I was also engaged in our annual college fest as sponsorship coordinator where I polished my communication skills, and how to deal with clients and acquired leadership qualities and a sense of responsibility. I have also experience in optimization mathematics such as linear programming and non-linear optimization. All these things enhance my ability to effectively articulate technical challenges and solutions and to think abstractlyabout handling ambiguous and undefined problems.</string>
+    <string name="done">Done</string>
+    <string name="what_s_your_name">What\'s your name!</string>
+    <string name="what_s_your_nick_name">What\'s your nick name</string>
+    <string name="textview">TextView</string>
+    <string name="ishan">ishan</string>
+</resources>
